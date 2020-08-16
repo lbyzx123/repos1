@@ -67,7 +67,7 @@ public class TestShardingDatabase {
     }
 
 
-    @Repeat(1000)
+    @Repeat(100)
     @Test
     public void testShardingBOrder() {
         Random random = new Random();
